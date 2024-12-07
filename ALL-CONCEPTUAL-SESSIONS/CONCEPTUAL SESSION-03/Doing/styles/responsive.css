@@ -1,0 +1,28 @@
+@media screen and (max-width: 676px) {
+	.header {
+		min-height: 40px;
+	}
+	.header-section {
+		/* max-width: 1250px;
+		border: 2px solid blue;
+		margin: 0 auto;
+		display: flex; */
+
+		flex-direction: column;
+		margin-left: 50px;
+		min-height: 20px;
+		/* border: 10px solid blue; */
+	}
+
+	.items-container {
+		flex-direction: column;
+		/* border: 2px solid red;
+        min-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%; */
+		gap: 20px;
+		justify-content: space-between;
+	}
+}
