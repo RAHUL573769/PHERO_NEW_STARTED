@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	background-image: url(../images/cow.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	height: 100vh;
+}
+
+.hero h1 {
+	color: aliceblue;
+	font-size: 100px;
+	font-weight: 300;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.article,
+.types {
+	width: 80%;
+	/* margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto; */
+	margin: 60px auto;
+	padding: 30px;
+	border: 5px solid yellow;
+	background-color: cornsilk;
+}
+
+.article h1,
+.types h2 {
+	text-align: center;
+	font-size: 48px;
+	border-color: blue;
+	border-style: solid;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	/* padding-bottom: 30px; */
+	margin-bottom: 20px;
+}
+.article p {
+	font-size: 2rem;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cow-images {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	justify-content: space-around;
+}
+.cow-images div {
+	max-width: 600px;
+}
+.cow-images img {
+	width: 100%;
+}
