@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mixed Selectors</title>
+
+		<style>
+			p {
+				color: red;
+			}
+			.fifth {
+				font-weight: bold;
+				color: #000;
+			}
+			#sixth,
+			p {
+				color: blueviolet;
+			}
+
+			input[type="password"] {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<p>My first line CSS</p>
+		<p>My second line CSS</p>
+		<p>My third line css</p>
+		<p>My fourth line css</p>
+		<p class="fifth">My fifth line css</p>
+		<p id="sixth">My sixth line css</p>
+		<p>My seventh line css</p>
+
+		<input type="text" />
+		<input type="password" name="" id="" />
+	</body>
+</html>
