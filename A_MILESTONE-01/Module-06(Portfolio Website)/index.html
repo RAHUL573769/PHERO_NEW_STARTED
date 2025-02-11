@@ -11,21 +11,117 @@
 		</style>
 	</head>
 	<body class="open-sans-normal">
-		<section id="header-section">
-			<header>
+		<div id="header-section secondary-bg">
+			<header class="header">
 				<nav id="nav-bar">
 					<h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
-					<ul>
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">Blog</a></li>
-						<li><button>Hire Me</button></li>
+					<ul class="nav-list">
+						<li><a class="dark-2" href="">Portfolio</a></li>
+						<li><a class="dark-2" href="">Blog</a></li>
+						<li><button class="primary-button">Hire Me</button></li>
 					</ul>
 				</nav>
+
+				<div class="banner">
+					<div class="banner-content">
+						<h3 class="banner-sub-title">Hi, I am</h3>
+
+						<h1 class="banner-title">Mary Hardy</h1>
+						<p class="banner-description">
+							Shot what able cold new see hold.Friendly as an betrayed formerly
+							he. Morning because as to society behaved moments.
+						</p>
+
+						<button class="primary-button">Download CV</button>
+
+						<button class="primary-button">Contact</button>
+					</div>
+					<img class="banner-profile-pic" src="./images/hardy.png" alt="" />
+				</div>
 			</header>
-		</section>
+		</div>
 
-		<section id="main-section"><main></main></section>
+		<div id="main-section">
+			<main>
+				<section class="about">
+					<h3 class="section-title">About Me</h3>
 
-		<section id="footer"><footer></footer></section>
+					<p class="section-description secondary-bg">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+						ratione quam obcaecati aperiam libero voluptatibus illo provident
+						perferendis distinctio neque!
+					</p>
+
+					<div class="about-items">
+						<!-- .about-item*4>p.item-title+p.item-description -->
+						<div class="about-item">
+							<p class="item-title">IItem 1</p>
+							<p class="item-description">Description 01</p>
+						</div>
+						<div class="about-item">
+							<p class="item-title">Item 02</p>
+							<p class="item-description">Description 02</p>
+						</div>
+						<div class="about-item">
+							<p class="item-title">Item 03</p>
+							<p class="item-description">Description 03</p>
+						</div>
+						<div class="about-item">
+							<p class="item-title">Item 04</p>
+							<p class="item-description">Description 04</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- What I do started -->
+
+				<section class="skills">
+					<h3 class="section-title text-center">What I do</h3>
+					<p class="section-description text-center">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut
+						at, repellendus est reiciendis, veniam cumque rem dolore iusto
+						excepturi adipisci ipsum vero quas aspernatur error illum quos
+						perferendis minus.
+					</p>
+
+					<div class="skills-container">
+						<div class="skill">
+							<img src="./images/icons/js.png" alt="" />
+							<div class="skill-title">Javascript</div>
+							<p class="skill-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+								suscipit!
+							</p>
+						</div>
+						<div class="skill">
+							<img src="./images/icons/nodejs.png" alt="" />
+							<div class="skill-title">Nodejs</div>
+							<p class="skill-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+								suscipit!
+							</p>
+						</div>
+						<div class="skill">
+							<img src="./images/icons/mongo.png" alt="" />
+							<div class="skill-title">Mongo Db</div>
+							<p class="skill-description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+								suscipit!
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="resume">
+					<h3>A summary of my resume</h3>
+
+					<div class="resume-container">
+						<!-- .resume-column*2>h3.resume-column-title+experience*3>h4.experience-title -->
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<section id="footer-section"><footer></footer></section>
 	</body>
 </html>
