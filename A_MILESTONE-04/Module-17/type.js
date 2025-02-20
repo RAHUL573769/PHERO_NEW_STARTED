@@ -10,3 +10,4 @@ var isPoor = false;
 console.log(isRich);
 
 console.log(name);
+var myAddress = "Bangladesh";
